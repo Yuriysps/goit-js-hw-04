@@ -4,10 +4,6 @@ console.log('task-3.js');
 
 //todo Об’єкт profile описує профіль користувача на ігровій платформі. У його властивостях зберігається ім’я профілю username та кількість активних годин playTime, проведених у грі.
 
-// const profile = {
-//     username: "Jacob",
-//   playTime: 300,
-// };
 
 //todo Доповни об’єкт profile методами для роботи з його властивостями.
 
@@ -15,49 +11,19 @@ console.log('task-3.js');
 //todo Метод updatePlayTime(hours) повинен приймати число (кількість годин) у параметр hours та збільшити на нього значення властивості playTime. Нічого не повертає.
 //todo Метод getInfo() має повертати рядок формату <Username> has <amount> active hours!, де <Username> — це ім’я профілю, а <amount> — кількість ігрових годин.
 
-// const profile = {
-//     username: "Jacob",
-//   playTime: 300,
-  
-//    changeUsername(newName) {
-//       // profile.username = newName;
-//     this.username = newName;
-  
 
-    
-    
-//              // function newFunction() {
-//                 //     profile.username = newName;
-//              //     newName = [];
-//                 // }
-        
-//      updatePlayTime (hours) {
-//             // profile.playTime +=  hours;
-//          this.playTime +=  hours;}
-      
-//     }
-//          getInfo(changeUsername) {
-//             return  `${Username} has ${playTime} active hours!`
-//          }   
-       
-
-    //   ----------------------------------  
-
-
-        // ------------------------  
 
         const profile = {
             username: "Jacob",
           playTime: 300,
         
             changeUsername(newName) {
-            // ...
-            // profile.username = newUsername;
+       
             this.username = newName;
         
         },
             updatePlayTime (hours) {
-                // profile.playTime += hours;
+               
                 this.playTime += hours;
             
             },
